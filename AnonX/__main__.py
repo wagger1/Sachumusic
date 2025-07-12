@@ -1,6 +1,8 @@
 import asyncio
 import importlib
 import sys
+import time
+import pyrogram
 
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
